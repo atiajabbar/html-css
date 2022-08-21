@@ -1,0 +1,308 @@
+*{
+    margin : 0;
+    padding: 0;
+    
+}
+
+.main{
+    width: 110%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50%), url(./images/skater-girl-with-coffee-cup-in-front-of-the-sun-st-PYZHQJX.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 120vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: crimson; /*futureera*/
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    /* display: flex ; */
+}
+ul {
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    padding-top: 30px;
+    font-size: 14px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover {
+    color: crimson;
+}
+
+.search{
+    width: 250px;
+    float: left;
+    margin-left: 230px;
+    padding-top: 25px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid wheat;
+    color: wheat;
+    border-right: none;
+   font-size: 16px;
+   /* margin-top: 5px; */
+   float: left;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+    
+.btn{
+    width: 100px;
+    height: 30px;
+    background: crimson;
+    border: 2px solid wheat;
+    /* margin-top: 0px; */
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: wheat;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: wheat;
+    transition: 0.3s;
+    
+}
+
+/* .btn a:hover {
+    color:crimson;
+    background-color: wheat;
+   
+} */
+
+.btn:focus {
+    outline:none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: wheat;
+    position: relative;
+}
+
+.content .par {
+    padding:20px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    width: 40%;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 30px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 130px;
+    background: crimson;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 20px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: wheat;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: wheat;
+    transition: 0.5s ease;
+}
+
+.cn:hover {
+    background-color: wheat;
+    color:crimson;
+}
+
+.content span{
+    color: crimson;
+    font-size: 60px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ;
+    position: absolute;
+    top: 10px;
+   left: 800px; 
+   border-radius: 10px;
+   padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    text-align: center;
+    font-size: 23px;
+    color: crimson;
+    background-color: wheat;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.form input {
+    width: 210px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid crimson;
+    border-top: none;
+    border-right: none;
+    color: wheat;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    /* padding-top: 30px; */
+}
+
+.form input:focus {
+    outline: none;
+}
+ ::placeholder {
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+ }
+
+ .btnn {
+    width: 220px;
+    height: 35px;
+    background: crimson;
+    color: wheat;
+    border-radius: 8px;
+    border: 1px solid wheat;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    /* align-items: center; */
+   
+
+ }
+
+ .btnn a{
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+ }
+
+ 
+
+ .btnn:hover {
+     color:crimson;
+    background-color: wheat;
+    /* transition: 0.1s; */
+ }
+
+ .btnn a:hover{
+    color: crimson;
+    font-weight : bold;
+ }
+
+ .form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    /* padding-top: 3px; */
+    text-align: center;
+ }
+
+ .form .link a{
+    text-decoration: none;
+    color:crimson;
+    font-weight: bold;
+ }
+ .logw{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+ }
+ .icon {
+    
+    width: auto;
+ }
+
+ .icon a {
+    text-decoration: none;
+    color: wheat;
+   
+ }
+
+ .icon ion-icon {
+    color: wheat;
+    font-size: 27px;
+    margin-left: 15px;
+    /* float: left; */
+    padding-top: 12px; 
+    transition: 0.5s ease-in-out;
+ }
+
+ .icon ion-icon:hover {
+    color: crimson;
+ }
